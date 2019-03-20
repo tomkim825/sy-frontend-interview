@@ -9,3 +9,80 @@
 	light orange color: #ec9371
 
 ******/
+
+/* ----- RESET CSS  for consistency among browsers ----- */
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* ----- End RESET CSS ----- */
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.item{
+	border: 1px solid #555;
+	border-radius: 4px;
+	background-color:  #DB4006;
+	margin: 10px 0;
+	position: relative;
+}
+
+.title{
+	color: white;
+	font-weight: 600;
+	font-size: 1.5em;
+	padding: 1.5% 3%;
+	min-height: 15px;
+	display: inline-block;
+	width: 500px;
+}
+
+.close{
+	position: absolute;
+	top: 7.5px;
+	right: 10px;
+	font-weight: 600;
+	font-size: 1.35em;
+	display: inline-block;
+}
+
+.description{
+	clear:both;
+	background-color:   #ec9371;
+	padding: 1.5% 3.4%;
+	font-size: 1.35em;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#newtitle{
+	border: 1px solid rgba(0,0,0,0.15);
+	padding: 3px
+}
+
+#newtitle:focus{
+	box-shadow: 0px 0px 5px  rgb(10,150,250)
+}
+
+.add{
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 5px;
+	padding: 3px 5px;
+	font-weight: 600;
+    box-shadow: 0 4px 6px -6px #888;
+}
+
+.add:active{
+	background: linear-gradient(rgb(10,150,250),rgb(10,100,250));
+}
